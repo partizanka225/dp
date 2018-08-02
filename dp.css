@@ -1,0 +1,472 @@
+html {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 0;
+     box-sizing: border-box;
+}
+ body {
+     margin: 0;
+}
+ header, main, footer {
+     width: 100%;
+     height: auto;
+}
+ header {
+     min-width: 100%;
+     margin: 0 auto;
+     min-height: 60px;
+     background-color: #02918c;
+     font-size: 14pt;
+     display: block;
+     z-index:2;
+     text-transform: uppercase;
+}
+ .hd {
+     width: 1188px;
+     margin: 0 auto;
+}
+ a {
+     text-decoration: none;
+     color: white;
+}
+ a:hover {
+     color: #cfc91d;
+}
+ a span:hover {
+     color: white;
+}
+ .logo {
+     margin-left: 50px;
+     float:left;
+     font-size:22pt;
+     font-weight: 700;
+     color: #b3deff;
+     padding-top: 7px;
+}
+ .logo:after {
+     content:' ';
+     display:block;
+     clear:both;
+}
+ .logo span {
+     color: #cfc91d;
+     font-size:22pt;
+}
+ .menu {
+     text-align:right;
+     height: auto;
+     margin-right:50px;
+     color: #ffffff;
+     font-size: 9pt;
+     font-weight: 800;
+     padding-top: 23px;
+}
+ .menu a {
+     display: inline-block;
+     margin: 0 20px 0 20px;
+}
+ .block_main {
+     min-width: 100%;
+     min-height: 100%;
+     background-image: url(http://u.cubeupload.com/partizanka/Masking.jpg);
+     text-align: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 0 auto;
+}
+ .title{
+     min-width: 100%;
+     min-height: 100%;
+     margin: 0 auto;
+}
+ .title h1 {
+     text-align: center;
+     padding: 200px 0px 0px 5px;
+     font-size: 22pt;
+     color: white;
+     margin-top: 0;
+   margin-bottom: 0;
+}
+ .title span {
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 50pt;
+     font-weight: 800;
+     letter-spacing: 22px;
+     color: white;
+      }
+
+ .title p {
+     color: white;
+     text-align: center;
+     font-size: 14pt;
+   margin-top: -5px;
+ margin-bottom: -35px;
+   }
+
+ .title p:after {
+     content: url(http://u.cubeupload.com/partizanka/min.png);
+     display: block;
+     width: 100px;
+     height: 100px;
+     margin: 0 auto;
+     padding: 50px 0 10px 0;
+}
+ .title a{
+     font-size: 12pt;
+     text-transform: uppercase;
+     text-align: center;
+     font-weight: 800;
+     color: black;
+     display: inline-block;
+     background-color: yellow;
+     padding: 14px 45px;
+     margin-bottom: 205px;
+}
+ .title a:hover {
+     color: yellow;
+     background-color: black;
+}
+ .block_about {
+     text-align: center;
+     max-width: 1187px;
+     margin: -50px auto;
+}
+ .block_about h2 {
+     text-transform: uppercase;
+     font-size: 34pt;
+     color: #02918c;
+     font-weight: 800;
+     padding-top: 95px;
+}
+ 
+ .block_about p {
+     max-width: 1187px;
+     font-size: 12pt;
+     color: black;
+     font-weight: 400;
+     line-height: 2.2em;
+     padding: 20px 150px;
+     margin: 0 auto;
+}
+ .block_about p span {
+     font-size: 16pt;
+     color: black;
+     font-weight: 800;
+}
+ .about_part {
+     max-width: 1187px;
+     box-sizing:border-box;
+     margin:0 auto;
+}
+ .about_part .part {
+     vertical-align: top;
+     margin:0 auto;
+     max-width: 24%;
+     display: inline-block;
+     border-right: thin solid #ccc;
+     margin-top: 100px;
+}
+ .about_part .part:last-child {
+     border-right: 0;
+}
+ .about_part .part h3 {
+     font-size: 16px;
+     color: black;
+     margin:0 auto;
+     padding-top: 25px;
+}
+ .about_part .part p {
+     font-size: 12px;
+     text-align: center;
+     color: black;
+     line-height: 2.0em;
+     padding: 20px 40px 0 40px;
+}
+ .icon1 {
+     width: 60px;
+     height: 35px;
+     background-image: url(http://u.cubeupload.com/partizanka/Vectormin.png);
+     background-position: 0px 0px;
+     display: block;
+     margin:0 auto;
+}
+ .icon2 {
+     width: 65px;
+     height: 34px;
+     background-image: url(http://u.cubeupload.com/partizanka/Vectormin.png);
+     background-position: 172px 0px;
+     display: block;
+     margin:0 auto;
+}
+ .icon3 {
+     width: 65px;
+     height: 34px;
+     background-image: url(http://u.cubeupload.com/partizanka/Vectormin.png);
+     background-position: 105px 0px;
+     display: block;
+     margin:0 auto;
+}
+ .icon4 {
+     width: 35px;
+     height: 35px;
+     background-image: url(http://u.cubeupload.com/partizanka/Vectormin.png);
+     background-position: 35px 3px;
+     display: block;
+     margin:0 auto;
+}
+ .services {
+     margin: 0 auto;
+     background-image: url(http://u.cubeupload.com/partizanka/hand1.jpg);
+     background-position: right center;
+     background-repeat: no-repeat;
+     background-size:contain;
+     background-color: #f0f0e8;
+     margin-top: 170px;
+}
+ .srv {
+     width: 1188px;
+     margin: 0 auto;
+}
+ .block_services {
+     background-color: #f0f0e8;
+     max-width: 640px;
+     height: auto;
+     text-align: left;
+     padding-bottom: 90px;
+}
+ .block_services h2 {
+     text-align: left;
+     text-transform: uppercase;
+     font-size: 34pt;
+     color: #02918c;
+     font-weight: 800;
+     padding: 0 90px;
+     padding-top: 70px;
+   }
+
+ .block_services p {
+     max-width: 600px;
+     text-align: left;
+     margin-left: 80px;
+     font-size: 12pt;
+     line-height: 2.4em;
+   padding-top: 25px;
+}
+ .services_part {
+     text-align: left;
+     font-size: 12pt;
+}
+ .services_part .part {
+     max-width: 45%;
+     display: inline-block;
+     padding-top: 30px;
+     vertical-align: top;
+}
+ .icon5 {
+     width: 30px;
+     height: 35px;
+     background-image: url(http://u.cubeupload.com/partizanka/Vector2min.png);
+     background-position: -15px -1px;
+     display: block;
+     margin:0 90px;
+}
+ .icon6 {
+     width: 33px;
+     height: 35px;
+     background-image: url(http://u.cubeupload.com/partizanka/Vector2min.png);
+     background-position: -83px -1px;
+     display: block;
+     margin:0 90px;
+}
+ .icon7 {
+     width: 33px;
+     height: 35px;
+     background-image: url(http://u.cubeupload.com/partizanka/Vector2min.png);
+     background-position: -185px 0px;
+     display: block;
+     margin:0 90px;
+}
+ .icon8 {
+     width: 33px;
+     height: 35px;
+     background-image: url(http://u.cubeupload.com/partizanka/Vector2min.png);
+     background-position: -255px 0px;
+     display: block;
+     margin:0 90px;
+}
+ .services_part h3 {
+     text-align: left;
+     margin: 10px 0px -30px 90px;
+     font-size: 12pt;
+}
+ .services_part p {
+     text-align: left;
+     padding-left: 10px;
+     font-size: 0.8em;
+}
+ .block_work {
+     text-align: center;
+     margin: -100px auto;
+}
+ .block_work h2 {
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 34pt;
+     color: #02918c;
+     font-weight: 800;
+     padding-top: 100px;
+}
+ 
+ .block_work p{
+     max-width: 1180px;
+     font-size: 12pt;
+     line-height: 2.4em;
+     margin: 0 auto;
+     line-height: 2.2em;
+     padding: 40px;
+     margin: 0 auto;
+}
+ .gallery {
+     margin: 50px auto;
+     text-align:center;
+     width: 1188px;
+}
+ .gallery .pic {
+     width: 25%;
+     display: inline-block;
+     position: relative;
+}
+ .pic img {
+     min-width: 100%;
+     min-height: 100%;
+}
+ .overlay {
+     position: absolute;
+     top: 20px;
+     left: 25px;
+     right: 25px;
+     bottom: 20px;
+     z-index: 5;
+     background: rgba(39, 161, 159, 0.8);
+     color: white;
+     text-align:center;
+     overflow: hidden;
+     display: none;
+}
+ .overlay h3 {
+     color: white;
+     text-align:center;
+     font-size: 14pt;
+     padding: 30px 0 0;
+}
+ .overlay p {
+     color: white;
+     text-align:center;
+     font-size: 10pt;
+     padding: 0 20px 0;
+}
+ .gallery .pic:hover .overlay{
+     display: block;
+}
+ .block_contact {
+     margin: 80px auto;
+     padding-top: 60px;
+}
+ .block_contact h2 {
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 34pt;
+     color: #02918c;
+     font-weight: 800;
+}
+h2 {
+  position: relative;
+} 
+h2:after {
+   content: "~~~~~~ :: ~~~~~~";
+   position: absolute;
+   bottom: -40px;
+   left: 50%;
+   margin-left: -60px;
+   color: black;
+   font-size: 0.35em;
+   font-weight: 400;  
+}
+.block_services h2:after {
+   position: absolute;
+   bottom: -50px;
+   left: 23%;
+   color: black;
+   font-size: 0.35em;
+   font-weight: 400;  
+}
+
+ .block_contact p {
+     text-align: center;
+     max-width: 1187px;
+     font-size: 12pt;
+     font-weight: 400;
+     line-height: 2.2em;
+     padding: 20px 150px;
+     margin: 0 auto;
+}
+ .form {
+     background-image: url(http://u.cubeupload.com/partizanka/Bg.jpg);
+     weight: 100%;
+     height: auto;
+     text-align: center;
+     margin: 0 auto;
+     padding-bottom: 70px;
+     background-size: cover;
+}
+ .fr {
+     max-weight: 915px;
+     height: auto;
+}
+ .form input {
+     display: block;
+     margin: 0 auto;
+     text-transform: uppercase;
+     background-image: url(http://u.cubeupload.com/partizanka/Bg.jpg);
+     color: white;
+     border: 0px;
+     border-bottom: 1px solid white;
+     padding: 40px 20px;
+     font-weight: 400;
+     font-size: 14px;
+     text-align: center;
+}
+ #line1 {
+     width: 635px;
+}
+ #line2 {
+     width: 915px;
+}
+ .form button {
+     display: block;
+     border: 0px;
+     color: black;
+     background-color: yellow;
+     text-transform: uppercase;
+     font-weight: 800;
+     margin: 50px auto;
+     padding: 10px 65px;
+}
+ .form button:hover {
+     color: yellow;
+     background-color: black;
+}
+ footer {
+     text-align: center;
+     background-image: url(http://u.cubeupload.com/partizanka/BgCopyright.jpg);
+     height: 65px;
+     margin: 0 auto;  
+}
+ footer p {
+     margin-top: 0;
+     font-size: 14px;
+     color: white;
+     text-transform: uppercase;
+     padding: 15px;
+}
+
